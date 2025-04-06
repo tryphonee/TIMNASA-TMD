@@ -1,10 +1,10 @@
 const {
-  zokou
-} = require("");
+  timoth
+} = require("...timnasa/timoth");
 const {
   default: axios
 } = require("axios");
-zokou({
+timoth({
   'nomCom': "pair",
   'aliases': ["session", "pair", "paircode", "qrcode"],
   'reaction': '🛸',
