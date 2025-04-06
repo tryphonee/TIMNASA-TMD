@@ -1,6 +1,6 @@
 const {
   timoth
-} = require("...timnasa/timoth");
+} = require("../timnasa/timoth");
 const {
   default: axios
 } = require("axios");
