@@ -1,12 +1,12 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { ezra } = require(__dirname + "/../fredi/ezra");
-const { format } = require(__dirname + "/../fredi/mesfonctions");
+const { timoth } = require(__dirname + "../timnasa/timoth");
+const { format } = require(__dirname + ".timnasa/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-ezra({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
+timoth({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../fredi//ezra");
     var coms = {};
